@@ -1,11 +1,20 @@
 .blue{
-    background: #14abf0;
+    background-color: #14abf0;
 }
 .cfff{
     color:#FFF;
 }
 .cred{
     color: #EE304F;
+}
+.red{
+    background-color: #EE304F;
+}
+.orange{
+    background-color: #fd7d21;
+}
+.c000{
+    color:#000;
 }
 .L-header{
     height:44px;
@@ -32,6 +41,7 @@
 .common-list-01 li{
     height:105px;
     border-bottom: 1px solid #E2E2E2;
+    overflow: hidden;
 }
 .common-list-02{
     border-top: 1px solid #E2E2E2;
@@ -40,10 +50,107 @@
     height:105px;
     border-bottom: 1px solid #E2E2E2;
 }
+.common-list-03{
+    border-top:1px solid #E2E2E2;
+}
 .common-list-03 li{
     height:44px;
     line-height: 44px;
     border-bottom:1px solid #E2E2E2;
+}
+.common-list-04{
+    border-top: 1px solid #E2E2E2;
+    border-bottom:1px solid #E2E2E2;
+}
+.common-list-04 li{
+    height:25px;
+    line-height: 25px;
+}
+.common-list-05{
+    border-top:1px solid #E2E2E2;
+    border-bottom: 1px solid #E2E2E2;
+}
+.common-list-06{
+    width: 100%;
+    height:44px;
+    line-height: 44px;
+    border-bottom: 1px solid #E2E2E2;
+    border-top: 1px solid #E2E2E2;
+}
+.common-list-06-con50{
+    margin-left:-23px;
+    width:50%;
+    border-right:1px solid #E2E2E2;
+    overflow: hidden;
+}
+.common-list-06-ml23{
+    padding-right: 22px;
+    margin-left: 22px;
+    background: url("../images/arrow-down.png") no-repeat right center;
+    -webkit-background-size: 18px;
+    background-size: 18px;
+}
+.common-list-06-btn{
+    width:44px;
+    height: 44px;
+    background:url("../images/changeicon.png") no-repeat center center;
+    -webkit-background-size: 18px;
+    background-size: 18px;
+}
+.common-list-06-box50 ul{
+    width: 50%;
+    height: 133px;
+    margin-left: -1px;
+    border-right: 1px solid #E2E2E2;
+    border-bottom: 1px solid #E2E2E2;
+    overflow-y: auto;
+}
+.common-list-06-box100{
+    width: 100%;
+    height: 133px;
+    border-bottom: 1px solid #E2E2E2;
+    overflow-y: auto;
+}
+.common-list-06-box100 li{
+    padding-left: 15px;
+}
+.common-list-07{
+    border-top: 1px solid #E2E2E2;
+}
+.common-list-07 li{
+    width: 50%;
+    border-bottom: 1px solid #E2E2E2;
+    border-right: 1px solid #E2E2E2;
+    margin-left: -1px;
+}
+.common-list-07 p{
+    line-height: 25px;
+}
+.common-list-07-pic{
+    height:160px;
+    overflow: hidden;
+}
+.common-list-05-list-1{
+    height:44px;
+    line-height:44px;
+    border-bottom:1px solid #E2E2E2;
+}
+.common-list-05-p-2{
+    padding-left: 55px;
+}
+.common-list-05-pic-2{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #E2E2E2;
+    overflow: hidden;
+}
+.common-list-05-pic-1{
+    width:40px;
+    height: 40px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    overflow: hidden;
 }
 .common-list-01 a{
     height:101px;
@@ -119,4 +226,9 @@
     height:80px;
 }
 .common-detailbox-02-name{
+}
+.L-carousel{
+    position:relative;
+    height:220px;
+    overflow:hidden;
 }
